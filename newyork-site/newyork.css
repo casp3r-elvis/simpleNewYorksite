@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+ol {
+    color: black;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+main {
+    color: black;
+}
+
+#color {
+    color: green;
+}
+
+#lowercase {
+    text-transform: lowercase;
+    color: blue;
+}
+
+@keyframes shine {
+    from {
+        background-position: center 0;
+    }
+    to {
+        background-position: center 200%;
+    }
+}
+
+.header {
+    margin: 0;
+    font-family: "Montserret", sans-serif;
+    font-size: 15vh;
+    letter-spacing: 1vw;
+    color: white;
+    background: url("tropical-flower.jpeg");
+    background-size: auto 20%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+}
+
+a {
+    color: black !important;
+}
